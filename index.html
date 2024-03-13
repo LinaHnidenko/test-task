@@ -36,7 +36,7 @@
               <use href="./images/svg/menu.svg#menu"></use>
             </svg>
           </li>
-          <li class="buttons-menu-item">
+          <li>
             <button type="button" class="buttons-menu-btn">Увійти</button>
           </li>
         </ul>
@@ -47,48 +47,50 @@
     <main>
       <section>
         <div class="container">
-          <img src="./images/logo/google-logo.png" alt="logo" class="js-logo" />
+          <img
+            src="./images/logo/google-logo.png"
+            alt="logo"
+            class="img-logo js-logo"
+          />
           <img
             src="./images/logo/oddity-logo.png"
             alt="logo"
-            class="hidden js-replacement"
+            class="hidden img-logo js-replacement"
           />
-          <div>
-            <button>
-              <svg class="" width="64" height="64">
+          <div class="input-buttons-wrapper">
+            <button class="input-button search-btn">
+              <svg width="20" height="20">
                 <use href="./images/svg/search.svg#search"></use>
               </svg>
             </button>
-            <input type="search" />
+            <input type="search" class="input" />
 
-            <button>
-              <svg class="" width="64" height="64">
+            <button class="input-button">
+              <svg class="" width="20" height="20">
                 <use href="./images/svg/keyboard.svg#keyboard"></use>
               </svg>
             </button>
-            <button>
-              <svg class="" width="64" height="64">
+            <button class="input-button">
+              <svg class="" width="20" height="20">
                 <use href="./images/svg/micro.svg#micro"></use>
               </svg>
             </button>
-            <button>
-              <svg class="" width="64" height="64">
+            <button class="input-button camera-btn">
+              <svg width="20" height="20">
                 <use href="./images/svg/camera.svg#camera"></use>
-              </svg>
-            </button>
-
-            <button>
-              <svg class="" width="64" height="64">
-                <use href="./images/svg/logo-Oddity.svg#oddity"></use>
               </svg>
             </button>
           </div>
 
-          <div>
-            <ul class="list">
-              <li><button type="button">Пошук Google</button></li>
+          <div class="btns-wrapper">
+            <ul class="list btns-list">
               <li>
-                <button type="button" id="toggleButton">Мені пощастить</button>
+                <button type="button" class="btns-button">Пошук Google</button>
+              </li>
+              <li>
+                <button type="button" id="toggleButton" class="btns-button">
+                  Мені пощастить
+                </button>
               </li>
             </ul>
             <p>Мова Google: <span>English</span></p>
@@ -98,19 +100,19 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      <div>
+    <footer class="footer">
+      <div class="footer-wrapper-location">
         <p>Україна</p>
       </div>
 
-      <div>
-        <ul class="list">
+      <div class="footer-wrapper-info">
+        <ul class="list footer-list">
           <li>Про Google</li>
           <li>Реклама</li>
           <li>Для бізнесу</li>
           <li>Як працює Пошук</li>
         </ul>
-        <ul class="list">
+        <ul class="list footer-list">
           <li>Конфіденційність</li>
           <li>Умови</li>
           <li>Налаштування</li>
